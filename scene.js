@@ -57,8 +57,8 @@ function newScene() {
         ctx.globalAlpha = 1.0;
         ctx.fillStyle = BACKGROUND_COLOR;
         ctx.fillRect(0, 0, width, height);
-        draw.drawRandomTree(0, width, height * 0.65, height, 10);
         draw.drawRandomCloud(0, width, 0, height * 0.25, 5);
+        draw.drawRandomTree(0, width, height * 0.65, height, 10);
     }
 
     function startAnimatedRender() {
